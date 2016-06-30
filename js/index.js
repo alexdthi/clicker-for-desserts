@@ -4,13 +4,26 @@ var Flavors = [
 	"nilla-nilla-Vanilla",
 	"Coconut",
 	"Cookie'n cream",
-	"American cake"
-	]
+	"American cake"]
+
+var FlavorsImage = [
+	"<img src='../assets/Chocolate.jpg'>",
+	"<img src='../assets/Very-very-strawberry.jpg'>",
+	"<img src='../assets/nilla-nilla-Vanilla.jpg'>",
+	"<img src='../assets/Coconut.jpg'>",
+	"<img src='../assets/cookie'n-cream.jpg'>",
+	"<img src='../assets/american-cake.jpg'>",
+]
 
 function pickIcecream(){
-	var icecreamNumber1= Math.floor(Math.random()*Flavors.length);
-	var icecreamNumber2= Math.floor(Math.random()*Flavors.length);
+	var IcecreamNumber1= Math.floor(Math.random()*Flavors.length);
+
+	var IcecreamNumber2= Math.floor(Math.random()*Flavors.length);
 	
-	document.getElementById('Icecream').innerHTML = "<h1>"+Flavors[icecreamNumber1]
-	+" and "+Flavors[cecreamNumber2]+"</h1>"
+	document.getElementById('Icecream').innerHTML = "<h1>"+Flavors[IcecreamNumber1]
+	+" and "+Flavors[IcecreamNumber2]+"</h1>"
+
+	document.getElementById('IC1').innerHTML = FlavorsImage[IcecreamNumber1];
+
+	document.getElementById('IC2').innerHTML = FlavorsImage[IcecreamNumber2];
 }
