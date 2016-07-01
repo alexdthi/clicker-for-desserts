@@ -1,18 +1,18 @@
 var Flavors = [
 	"Chocolate",
-	"Very Very Strawberry",
+	"Very-very-Strawberry",
 	"nilla-nilla-Vanilla",
 	"Coconut",
-	"Cookie'n cream",
-	"American cake"]
+	"cook-n-cream",
+	"american-cake"]
 
 var FlavorsImage = [
-	"<img src='../assets/Chocolate.jpg'>",
-	"<img src='../assets/Very-very-strawberry.jpg'>",
-	"<img src='../assets/nilla-nilla-Vanilla.jpg'>",
-	"<img src='../assets/Coconut.jpg'>",
-	"<img src='../assets/cookie'n-cream.jpg'>",
-	"<img src='../assets/american-cake.jpg'>",
+	"<img src='assets/Chocolate.jpg'>",
+	"<img src='assets/Very-very-strawberry.jpg'>",
+	"<img src='assets/nilla-nilla-Vanilla.jpg'>",
+	"<img src='assets/Coconut.jpg'>",
+	"<img src='assets/cook-n-cream.jpg'>",
+	"<img src='assets/american-cake.jpg'>",
 ]
 
 function pickIcecream(){
