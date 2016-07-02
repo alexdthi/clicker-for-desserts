@@ -1,5 +1,4 @@
 body{
-	background-image: url("../assets/cat.gif");
 	text-align: center;
 }
 
@@ -9,22 +8,22 @@ body{
 
 #IC1{
 	display: inline-block;
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	background-color: red;
-	margin: 40px;
+	margin: 500px;
 }
 #IC2{
 	display: inline-block;
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	background-color: green;
-	margin: 40px;
+	margin: 500px;
 }
 
 
 img {
-	height: 100px;
-	width: 100px;
-	margin: -10px
+	height: 250px;
+	width: 250px;
+	margin: -100px
 }
