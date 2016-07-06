@@ -11,14 +11,14 @@ body{
 	width: 100px;
 	height: 100px;
 	background-color: red;
-	margin: 500px;
+	margin: 100px;
 }
 #IC2{
 	display: inline-block;
 	width: 100px;
 	height: 100px;
 	background-color: green;
-	margin: 500px;
+	margin: 100px;
 }
 
 
