@@ -1,17 +1,26 @@
 var Flavors = [
 	"Chocolate",
-	"Very Very Strawberry",
+	"Very-very-Strawberry",
 	"nilla-nilla-Vanilla",
 	"Coconut",
+<<<<<<< HEAD
 	"Cookie-n-cream",
 	"American cake"]
+=======
+	"cook-n-cream",
+	"american-cake"]
+>>>>>>> origin/master
 
 var FlavorsImage = [
 	"<img src='assets/Chocolate.jpg'>",
 	"<img src='assets/Very-very-strawberry.jpg'>",
 	"<img src='assets/nilla-nilla-Vanilla.jpg'>",
 	"<img src='assets/Coconut.jpg'>",
+<<<<<<< HEAD
 	"<img src='assets/cookie-n-cream.jpg'>",
+=======
+	"<img src='assets/cook-n-cream.jpg'>",
+>>>>>>> origin/master
 	"<img src='assets/american-cake.jpg'>",
 ]
 
